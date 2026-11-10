@@ -1,0 +1,13 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Resultados de compilación
+bin/
+obj/
+
+# Paquetes y otros
+packages/
+*.log
