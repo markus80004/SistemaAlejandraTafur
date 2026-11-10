@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entTipoDesvinculacion
+    public class entTipoDesvinculacion
     {
+        public int idTipoDesvinculacion { get; set; }
+        public string nombre { get; set; }
+        public string descripcion { get; set; }
+        public Boolean reqCartaRenuncia { get; set; }
+        public Boolean reqAprobacion { get; set; }
+        public Boolean estTipoDesvinculacion { get; set; }
     }
 }
